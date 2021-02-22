@@ -8,11 +8,11 @@
 }
 
 .container.medium {
-    max-width: calc(750px + 8vw);
+    max-width: calc(900px + 8vw);
 }
 
 .container.small {
-    max-width: calc(640px + 8vw);
+    max-width: calc(768px + 8vw);
 }
 
 .row {

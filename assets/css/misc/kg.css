@@ -133,7 +133,7 @@
         [wide-start]
         minmax(auto, 140px)
         [main-start]
-        min(640px, calc(100% - 8vw))
+        min(768px, calc(100% - 8vw))
         [main-end]
         minmax(auto, 140px)
         [wide-end]
