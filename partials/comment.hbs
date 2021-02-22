@@ -1,5 +1,11 @@
-{{!-- {{#if post.access}}
+{{#if post.access}}
 <div class="comment container small">
-    If you want to embed comments, this is a good place to do it!
+    <section id='isso-thread'></section>
+    <script async
+        src='https://comments.srijn.net/js/embed.min.js'
+        data-isso='https://comments.srijn.net'
+        data-isso-require-author='true'
+        data-isso-css="false"
+        crossorigin="anonymous"></script>
 </div>
-{{/if}} --}}
+{{/if}}
