@@ -51,14 +51,15 @@
 .feed-calendar {
     display: flex;
     margin-right: 1.5rem;
-    min-width: 45px;
+    min-width: 80px;
     color: var(--brand-color);
     font-size: 1.1rem;
     font-weight: 800;
     white-space: nowrap;
 }
 
-.feed-calendar-month {
+.feed-calendar-month,
+.feed-calendar-day {
     margin-right: 0.4rem;
     text-transform: uppercase;
 }
