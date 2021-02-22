@@ -1,6 +1,6 @@
 {
-    "name": "dawn",
-    "description": "A Ghost theme",
+    "name": "dawn-srijan",
+    "description": "A Ghost theme, customized by srijan",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=3.0.0",
