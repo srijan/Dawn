@@ -4,6 +4,7 @@
     align-items: center;
     overflow: hidden;
     padding: 1.5rem 0;
+    border-bottom: 1px solid var(--light-gray-color);
     line-height: 1;
 }
 
@@ -19,13 +20,32 @@
     transform: translateX(0.4rem);
 }
 
-.feed + .feed {
-    border-top: 1px solid var(--light-gray-color);
-}
-
 .feed + .feed.feed-paged {
     margin-top: 3rem;
     border-top: 0;
+}
+
+.feed-year {
+    border-bottom: 1px solid var(--light-gray-color);
+}
+
+.feed-year-2013 + .feed + .feed-year-2013,
+.feed-year-2014 + .feed + .feed-year-2014,
+.feed-year-2015 + .feed + .feed-year-2015,
+.feed-year-2016 + .feed + .feed-year-2016,
+.feed-year-2017 + .feed + .feed-year-2017,
+.feed-year-2018 + .feed + .feed-year-2018,
+.feed-year-2019 + .feed + .feed-year-2019,
+.feed-year-2020 + .feed + .feed-year-2020,
+.feed-year-2021 + .feed + .feed-year-2021,
+.feed-year-2022 + .feed + .feed-year-2022,
+.feed-year-2023 + .feed + .feed-year-2023 {
+    display: none;
+}
+
+.feed-year-title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .feed-calendar {
