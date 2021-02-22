@@ -16,11 +16,11 @@
 }
 
 .header-right .menu-item {
-    margin: 0;
+    margin-bottom: 0.25rem;
 }
 
 .header-right .menu-item + .menu-item {
-    margin-left: 2rem;
+    margin-left: 0;
 }
 
 .logo {
