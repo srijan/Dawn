@@ -1,3 +1,46 @@
+# Dawn Customized by srijan
+
+* This repo has the dawn theme customized for [my blog](https://www.srijn.net/).
+* Customizations released under the MIT license.
+* For the original readme, scroll down.
+
+## Changes done
+
+### Generic changes
+
+* [x] Make content area wider on index and post pages
+* [x] Host jquery locally
+* [x] Include prism (hosted locally), tomorrow night theme, limited languages
+* [x] Group posts list on index page by year (but see limitation below)
+* [x] Add year in posts list in related content box and tags pages (but not on
+      index page)
+* [x] Add icon for github
+* [x] On index page: move the logo / logo-title to center of the page and make
+      it bigger
+* [x] Move navigation from center to the right
+* [x] Link directly to RSS instead of opening in feedly
+* [x] Remove author card and facebook/twitter share buttons from bottom of posts
+
+### Very specific to my site
+
+* [x] Add Isso comments, css customization (with dark mode), and add attribution
+      (powered by ghost and isso)
+* [x] Add github and linkedin links to the bottom of the page (hardcoded urls)
+
+## Changes TODO / Limitations
+
+* [ ] Dark mode toggle at the top
+* [ ] Dark mode toggle for code highlights
+* [ ] Fix pagination of posts.
+
+  Pagination (load more) is broken because of group by year on index page.
+  I've set `posts_per_page` to `100` to work around this for now.
+
+* [ ] Move the search button to the right if members are enabled
+* [ ] Social links for github and linkedin are hardcoded
+* [ ] Even wider code area. I tried doing this simply, but it broke mobile view.
+* [ ] Maybe remove the dependency on jquery?
+
 # Dawn
 
 A highly functional theme that adapts to the reader's preferences. Let them read, search, subscribe, navigate, and more with ease. Completely free and fully responsive, released under the MIT license.
