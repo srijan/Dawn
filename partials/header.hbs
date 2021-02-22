@@ -1,12 +1,14 @@
 <header class="site-header container">
     <div class="header-left">
-        <a class="logo" href="{{@site.url}}">
-            {{#if @site.logo}}
-                <img class="logo-image" src="{{@site.logo}}" alt="{{@site.title}}">
-            {{else}}
-                <span class="logo-text">{{@site.title}}</span>
-            {{/if}}
-        </a>
+        {{^is "home"}}
+            <a class="logo" href="{{@site.url}}">
+                {{#if @site.logo}}
+                    <img class="logo-image" src="{{@site.logo}}" alt="{{@site.title}}">
+                {{else}}
+                    <span class="logo-text">{{@site.title}}</span>
+                {{/if}}
+            </a>
+        {{/is}}
     </div>
     {{#if @site.navigation}}
         <nav class="main-nav hidden-xs hidden-sm hidden-md">
