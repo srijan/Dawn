@@ -48,14 +48,19 @@
     margin-bottom: 1rem;
 }
 
-.feed-calendar {
+.feed-calendar,
+.feed-calendar-long {
     display: flex;
     margin-right: 1.5rem;
-    min-width: 80px;
+    min-width: 45px;
     color: var(--brand-color);
     font-size: 1.1rem;
     font-weight: 800;
     white-space: nowrap;
+}
+
+.feed-calendar-long {
+    min-width: 75px;
 }
 
 .feed-calendar-month,
